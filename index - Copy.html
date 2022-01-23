@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pablo's Portal Page</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/6a71565c22.js"></script>
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+
+<body>
+<!-- START WRAPPER -->
+<main class="wrapper">
+<header>
+  <h1><a href="index.php"><i class="logo fa fa-home"></i> Pablo Sepulveda SCC IT162 Portal</a></h1>
+  <nav>
+    <ul class="topnav" id="myTopnav">
+      <li><a href="index.php" class="selected">Welcome</a></li>
+      <li><a href="big/index.php">Big</a></li>
+      <li><a href="aia.php">AIA</a></li>
+      <li><a href="flowchart.php">Flowchart/Layout</a></li>
+      <li><a href="fp/index.php">Final Project</a></li>
+      <li><a href="contactme.php">Contact Pablo</a></li>
+      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+    </ul>
+  </nav>
+</header>
+        
+<!-- START LEFT COL -->
+<section>
+ <h2 class="pageID">Welcome</h2>
+ 
+<!-- header for PHP cut ends here -->
+
+<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
+ <img src="images/desktop.jpg" class="desktop" alt="" />
+ <img src="images/phone.jpg" class="phone" alt="" />
+ <img src="images/tablet.jpg" class="tablet" alt="" />
+
+</section>
+<!-- END LEFT COL -->
+
+<!-- START RIGHT COL -->
+<aside>
+ <h3>About me</h3>
+ <p>Hello, my name is Pablo Sepulveda. I was born and 
+  raised in Chile. I immigrated to the US when I was 18 years old. 
+  I studied music and flute in college.
+  Now I work independently as a Spanish interpreter, translator and voice-over 
+  artist. I enjoy learning 
+  about computers and technology. I also enjoy exercising and learning ASL language.</p>
+<p>In 2020, everything closed because of the pandemic and most of my work disappeared. 
+  While in lockdown I decided to upgrade my skills, and I studied computer
+   technologies at North Seattle college, earning a Web Application
+    Technologies Certificate. I am enthusiastic about learning more
+    about web development.</p>
+</aside>
+<!-- END RIGHT COL -->
+ 
+<!-- START Footer -->
+  <footer>
+      <p><small>&copy; 2022  
+          <a href="contact.php">by Pablo Sepulveda</a> All Rights Reserved  ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+<!-- END Footer --> 
+</main>
+<!-- END WRAPPER -->
+
+    
+
+
+
+  <script>
+	//https://tinyurl.com/dynamic-html-checker
+	document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
+
+	//manages mobile nav - from W3Schools
+	function myFunction() {
+    	    var x = document.getElementById("myTopnav");
+    	    if (x.className === "topnav") {
+        	         x.className += " responsive";
+    	    } else {
+        	         x.className = "topnav";
+    	   }
+	}   
+ </script>
+</body>
+</html>
+
