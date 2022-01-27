@@ -8,7 +8,7 @@
     <script src="https://use.fontawesome.com/6a71565c22.js"></script>
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/portal.css" />
-    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/forms.css" />
 </head>
 
 <body>

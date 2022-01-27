@@ -26,7 +26,7 @@ p {
 .logo {
     color:rgb(102, 11, 138);
     margin: left 2px%;
-    text-shadow:1px 1px #ccc;
+    text-shadow:1px #ccc;
     font-size:1.25em;
 }
 
