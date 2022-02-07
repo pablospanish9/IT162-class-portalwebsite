@@ -1,5 +1,5 @@
 <!-- START Footer -->
-<footer>
+<footer style="width:100%">
       <p><small>&copy; 2022  
           <a href="contact.php">by Pablo Sepulveda</a> All Rights Reserved  ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 

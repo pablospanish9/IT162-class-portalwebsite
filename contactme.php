@@ -1,11 +1,11 @@
 <?php include "includes/header.php";?>
  
 <!-- This is a template to start new pages -->
-<h2 class="subheader">Please contact me and send me a message</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores tempore, excepturi nobis soluta nemo illum. Laborum enim aliquam saepe facilis laudantium vel? Ad ut consectetur, eum quae sunt provident ipsa!
-Tempore incidunt atque, consequatur vuas, possimus voluptate. Aliquid soluta ullam perspiciatis maiores ut natus, suscipit similique nulla, ipsam totam, rerum quam numquam sequi ipsum magnam doloribus veniam aliquam odio!</p>
+<div>
+<!-- <h2 class="subheader">Please contact me and send me a message</h2> -->
 
-<body>
+
+<!-- <body> -->
     <!-- This is left over code from copying code, possibly a duplicate of an old nav: -->
 	<!-- <header role="banner">
 		<h1 class="masthead">Our Website</h1>
@@ -49,6 +49,8 @@ Tempore incidunt atque, consequatur vuas, possimus voluptate. Aliquid soluta ull
         $toName = "Pablo Sep"; //place your client's name here
         $website = "pabsep2.dreamhosters.com";  //place NAME of your client's website
 
+
+
         echo loadContact('simple.php');#demonstrates a simple contact form
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
@@ -57,5 +59,6 @@ Tempore incidunt atque, consequatur vuas, possimus voluptate. Aliquid soluta ull
 
 
 </body>
+</div>
 
 <?php include "includes/footer.php";?>

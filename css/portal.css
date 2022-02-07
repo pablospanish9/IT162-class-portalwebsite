@@ -25,7 +25,7 @@ p {
 }
 .logo {
     color:rgb(102, 11, 138);
-    margin: left 2px%;
+    margin-left: 2%;
     text-shadow:1px #ccc;
     font-size:1.25em;
 }
@@ -75,19 +75,19 @@ footer a {
 	}
 
     section {
-		width:56%;
+		width:60%;
 		float:left;
         padding:10px;
-      
-
 	}
-	
+
      aside {	
 		width:30%;
 		float:right;
         padding-right: 4%;
 	}
-			
+    footer {
+        width:100%;
+    }		
     img.desktop {
       		float:left;
        		width:80%;
@@ -112,7 +112,7 @@ footer a {
 @media all and (min-width:737px) and (max-width:1399px) {
 	
 	section {
-		width:60%;
+		width: 57%;
 		float:left;
 	}
 	
@@ -121,6 +121,10 @@ footer a {
 		float:right;
         margin-right: 4%;
         
+	}
+    footer{
+		width:100%;
+		float:left;
 	}
 	
     img.tablet {
